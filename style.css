@@ -1,0 +1,726 @@
+*{
+    margin: 0;
+    list-style:none; 
+    padding: 0; 
+  }
+  
+  body{
+    text-align:left;
+  }
+  
+  header{
+      background-color: #356EB8; 
+      width: 100%;
+      height: 120px;
+      font-family: 'Inter', sans-serif;    
+      font-weight: 100;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .logo{
+    display: flex;
+    position: absolute;
+    margin-left: 1%;  
+    left: 0px; 
+    height: 6vw;
+  }
+  
+    .menu {
+      float: left;
+      width: 100%;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    }
+    
+    .menu a {
+      font-weight: 100;
+      align-items: center;
+      justify-content: center;
+      background-color: #e5e5e5;
+      padding: 8px;
+      display: block;
+      width: 100%;
+      color: white;    
+      background-color: #356EB8; 
+      font-family: 'Inter', sans-serif;  
+      text-decoration: none;
+    }
+  
+    nav a:hover, .menubt:hover {
+      background-color: #052E63;
+    }
+    
+    .menu-content {
+      display: none;
+      position: absolute;
+      left: 0;
+      background-color: #052E63;
+      width: 100%;
+      z-index: 1;
+    }
+    
+    .menu-content a {
+      float: left;
+      color: white;
+      text-decoration: none;
+    }
+    
+    .menu-content a:hover {
+      background-color: #eee;
+      color: black;
+    }
+    
+    .menu:hover .menu-content {
+      display: block;
+    }
+  
+   .imgInicial{
+    width: 100%;
+    height: 31vw;
+    background-color: #052E63;    
+    float: left;
+}
+
+.text{
+    /*margin-top: 16%;*/
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 5vw;
+    margin-left: 2%;
+    width: 35%;
+    margin-top: 12vw;
+    float:left;
+}
+
+
+.imgInicial img{
+    display: flex;
+    position: absolute;
+    margin-left: 1%;  
+    right: 0px; 
+    height: 6vw;
+    margin-top: 23vw;
+    margin-right: 3vw;
+}
+
+/*EMENTA*/
+
+.ementa{
+  width: 100%;
+  background-color: 052E63;
+  float: left;
+  background-color: #c2e8fc;
+}
+
+.tituloEm{
+  background-color: #c2e8fc;
+  width: 100%;
+  height: 4vw;
+  float: left;
+  margin-top: 2vw;
+  text-align: center;
+}
+
+.tituloEm a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 3vw;
+  margin-top: 1vw;
+  
+}
+
+.descEm{
+  background-color: #c2e8fc;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.descEm a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+.topicosEm1{
+  background-color: #c2e8fc;
+  width: 100%;
+  height: 11vw;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topicosEm2{
+  background-color: #c2e8fc;
+  width: 100%;
+  height: 13vw;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top1 .top2 .top3 .top4 .top5 .top6 .top7 img{
+  width: 4vw;
+  height: 4vw;
+  float: left;
+}
+
+.top1{
+  background-color: #c2e8fc;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  width: 19vw;
+  height: 5vw;
+  float: left;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #052E63;
+  align-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.top2{
+  background-color: #c2e8fc;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  width: 19vw;
+  height: 5vw;
+  float: left;
+  margin-top: 2vw;
+  margin-left: 4vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #052E63;
+  align-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.top3{
+  background-color: #c2e8fc;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  width: 19vw;
+  height: 5vw;
+  float: left;
+  margin-top: 2vw;
+  margin-left: 4vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #052E63;
+  align-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.top4{
+  background-color: #c2e8fc;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  width: 19vw;
+  height: 5vw;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  float: left;
+  margin-top: 2vw;
+  margin-left: 4vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #052E63;
+}
+
+.top5{
+  background-color: #c2e8fc;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  width: 19vw;
+  height: 5vw;
+  float: left;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #052E63;
+  align-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.top6{
+  background-color: #c2e8fc;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  width: 19vw;
+  height: 5vw;
+  float: left;
+  margin-left: 4vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #052E63;
+  align-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.top7{
+  background-color: #c2e8fc;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  width: 19vw;
+  height: 5vw;
+  float: left;
+  margin-left: 4vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #052E63;
+  align-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.top1 .top2 .top3 .top4 .top5 .top6 .top7 a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*OBJETIVO*/
+
+.objetivo{
+  width: 100%;
+  background-color: 052E63;
+  float: left;
+  background-color: #052E63;
+}
+
+.tituloObj{
+  background-color: #052E63;
+  width: 100%;
+  height: 4vw;
+  float: left;
+  margin-top: 2vw;
+  text-align: center;
+}
+
+.tituloObj a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 3vw;
+  margin-top: 1vw;
+  color: white;
+}
+
+.descObj{
+  background-color: #052E63;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.descObj a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  color: white;
+}
+
+.topicosObj{
+  background-color: #052E63;
+  width: 100%;
+  height: 17vw;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+
+.obj1, .obj2, .obj3, .obj4{
+  background-color: #052E63;
+  color: white;
+  width: 14vw;
+  height: 9vw;
+  float: left;
+  margin-top: 2vw;
+  margin-left: 3vw;
+  border-radius: 27px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: steelblue;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  justify-content: center;
+  text-align: center;
+  display: initial;
+}
+
+.num1 .num2 .num3 .num4 h2{
+  font-size: 1.5vw;
+  margin-right: 0;
+  width: 100%;
+  height: 2vw;
+  float: left;
+}
+
+.obj1 .obj2 .obj3 .obj4 a{
+  display: flex;
+  float: left;
+}
+
+/*Competências Desenvolvidas*/
+.CompDesen{
+  width: 100%;
+  height: 15vw;
+  background-color: 052E63;
+  float: left;
+  background-color: #c2e8fc;
+}
+
+.tituloCD{
+  background-color: #c2e8fc;
+  width: 100%;
+  height: 4vw;
+  float: left;
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.tituloCD a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 3vw;
+  margin-top: 1vw;
+  
+}
+
+.desCD{
+  background-color: #c2e8fc;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.desCD a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+.topicosCD{
+  background-color: #c2e8fc;
+  width: 100%;
+  height: 7vw;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+
+.cd1, .cd2, .cd3, .cd4{
+  background-color: #c2e8fc;
+  color: black;
+  width: 14vw;
+  height: 9vw;
+  float: left;
+  margin-top: 1vw;
+  margin-left: 3vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: steelblue;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  justify-content: center;
+  text-align: center;
+  display: grid ;
+  align-content: center;
+  position: relative;
+}
+
+.cd1 .cd2 .cd3 .cd4 a{
+  display: flex;
+  float: left;
+}
+
+/*Tópicos Tratados*/
+
+.topTra{
+  width: 100%;
+  height: 25vw;;
+  float: left;
+  background-color: #052E63;
+}
+
+.tituloTT{
+  background-color: #052E63;
+  width: 100%;
+  height: 4vw;
+  float: left;
+  text-align: center;
+  margin-top: 6vw;
+}
+
+.tituloTT a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 3vw;
+  margin-top: 1vw;
+}
+
+.descTT{
+  background-color: #052E63;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.descTT a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  color: white;
+}
+
+.botao-topicos{
+  width: 30%;
+  float: left;
+  margin-left: 32.5vw;
+  margin-top: 2vw;
+  position: relative;
+}
+
+.button-topicos{
+  color: white;
+  width: 100%;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  padding: 1.4vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  margin: 2px 1px;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin-top: 1vw;
+  border-radius: 2vw;
+  background-color: steelblue;
+}
+
+.button-topicos:hover{
+  background-color: white;
+  color: #052E63;
+}
+
+/*Avaliação*/
+
+.avaliacao{
+  width: 100%;
+  height: 47vw;
+  float: left;
+  background-color: #c2e8fc;
+
+}
+
+.tituloAva{
+  background-color: #c2e8fc;
+  width: 100%;
+  height: 4vw;
+  float: left;
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.tituloAva a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 3vw;
+  margin-top: 1vw;
+}
+
+.descAva{
+  background-color: #c2e8fc;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.descAva a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  color: black;
+}
+
+.botoes{
+  width: 17%;
+  float: left;
+  margin-left: 18vw;
+  margin-top: 2vw;
+  position: relative;
+}
+
+.botao{
+  color: white;
+  width: 100%;
+  padding: 1.4vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  margin: 2px 1px;
+  border: none;
+  transition-duration: 0.4s;
+  margin-top: 1vw;
+  border-radius: 2vw;
+  background-color: #052E63;
+}
+
+.botao:hover{
+  background-color: #008CBA;
+  color: white;
+}
+ 
+.assuntos{
+  width: 50%;
+  float: left;
+  margin-top: 1vw;
+  margin-left: 5vw;
+}
+
+.assunto{
+  height: 3.5vw;
+  width: 100%;
+  float: left;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  margin-top: 1.5vw;
+  margin-left: 1vw;
+  border:solid 1px;
+  box-shadow: 3px 5px 5px -1px #356EB8;
+}
+
+.assunto a{
+  margin-left: 1vw;
+  align-content: center;
+}
+
+
+/*Contato*/
+
+.contatos{
+  width: 40%;
+  height: 14vw;
+  float: left;
+  margin-left: 30vw;
+  margin-top: 4VW;
+  background-color: #356EB8;
+  position: relative;
+  border-radius: 1vw;
+}
+
+.tituloCont{
+  background-color: #356EB8;
+  width: 100%;
+  height: 4vw;
+  float: left;
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.tituloCont a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 2vw;
+  margin-top: 1vw;
+}
+
+.contatos2 a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 1vw;
+  margin-left: 2vw;
+}
+
+/*Referências*/
+
+.referencias{
+  width: 100%;
+  height: 41vw;
+  float: left;
+  background-color: #052E63;
+
+}
+
+.tituloRef{
+  background-color: #052E63;
+  width: 100%;
+  height: 4vw;
+  float: left;
+  text-align: center;
+  margin-top: 9vw;
+}
+
+.tituloRef a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 3vw;
+  margin-top: 1vw;
+}
+
+.refs{
+  margin-left: 5vw;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 1vw;
+  margin-top: 2vw;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  margin-top: 1vw;
+  background-color: #c2e8fc;
+  color: #052E63;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+/*Responsivo*/
+
+@media only screen and (max-width: 500px) {
+  .logo, header
+  {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .menu{
+    width: 100%;
+    display: contents;
+  }
+}

@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    list-style:none; 
+    padding: 0; 
+  }
+  
+  body{
+    text-align:left;
+  }
+  
+  header{
+      background-color: #356EB8; 
+      width: 100%;
+      height: 120px;
+      font-family: 'Inter', sans-serif;    
+      font-weight: 100;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .logo{
+    display: flex;
+    position: absolute;
+    margin-left: 1%;  
+    left: 0px; 
+    height: 6vw;
+  }
+
+
+/*Tópicos Tratados*/
+
+.topTra{
+  width: 100%;
+  height:70vw;
+  float: left;
+  background-color: #052E63;
+}
+
+.tituloTT{
+  background-color: #052E63;
+  width: 100%;
+  height: 4vw;
+  float: left;
+  text-align: center;
+  margin-top: 6vw;
+}
+
+.tituloTT a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 3vw;
+  margin-top: 1vw;
+}
+
+.descTT{
+  background-color: #052E63;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.descTT a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  color: white;
+}
+
+.itens{
+  width: 30%;
+  float: left;
+  margin-left: 18vw;
+  margin-top: 2vw;
+  position: relative;
+}
+
+.itens2{
+  width: 30%;
+  float: left;
+  margin-left: 4vw;
+  margin-top: 2vw;
+  }
+
+.unidades {
+  background-color: #356EB8;
+  color: white;
+  cursor: pointer;
+  padding: 2vw;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1vw;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+.active, .unidades:hover {
+  background-color: #052E63;
+}
+
+.unidades:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.texto {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #052E63;
+  color: white;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  margin-top: 1vw;
+  background-color: #c2e8fc;
+  color: #052E63;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+/*Responsivo*/
+
+@media only screen and (max-width: 500px) {
+  .logo, header
+  {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .menu{
+    width: 100%;
+    display: contents;
+  }
+}
